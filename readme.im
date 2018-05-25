@@ -1,0 +1,13 @@
+关于scrapy项目的记录：
+
+1、对于IDE使用pycharm的开发者，需要先用pip指令安装virtualenvwrapper；
+
+2、配置virtualenvwrapper系统环境变量WORKON_HOME并新建虚拟环境；
+
+3、安装scrapy并在自己代码路径创建新的scrapy项目；
+
+4、pycharm导入项目文件夹并在setting中把python解释器路径指定到已创建的虚拟环境；
+
+5、安装pypiwin32，然后用scrapy genspider 'name' 'domain'创建spider模板；
+
+6、如果需要对项目进行debug，需要创建启动脚本main,通过sys库的execute方法启动项目
